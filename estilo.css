@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: #222222;
+    color: white;
+    padding: 15px;;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+    margin-top: 6px;
+}
+
+/**Parte do cabeçalho **/
+header{
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 50PX;
+}
+#logo{
+    flex-direction: column;
+    display: inline;
+}
+#logo img{
+    height: 100px;
+}
+
+/**links**/
+ a{
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+ a:hover{
+    color: #840ec9;
+    background-color: #fff;
+    border-radius: 20px;
+}
+#menu_lateral{
+    display: inline-block;
+    float: right;
+    margin: 25px 35px;
+}
+#diferente{
+    border: 2px solid #840ec9;
+    border-radius: 15px;
+    padding: 15px;
+}
+#diferente:hover{
+    background-color: #840ec9;
+    color: #fff;
+}
+
+/**parte principal**/
+#texto{
+    width: 48%;
+    float: left;
+}
+span{
+    color: #840ec9;
+}
+/**formulário **/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input{
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+form [type="submit"]{
+    background-color: #840ec9;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.5s;
+    width: 40%;
+    cursor: pointer;
+}
+form [type="submit"]:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+/**parte lateral **/
+article{
+    float: left;
+    width: 400;
+}
+
